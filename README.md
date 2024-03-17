@@ -17,7 +17,7 @@ mostrando la seguridad y funcionalidad de tu prototipo.
   <p align="center">
   <IMG src=https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png height=150 width=250> 
   <p/>
-- 
+- []
 # ARQUITECTURA 
 la arquitectura del proyecto sigue un patrón de diseño en el que cada clase tiene una responsabilidad específica.
 
@@ -87,26 +87,23 @@ Este laboratori está compuesto por 4 clases principales:
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/d1c251ae-101d-4e4a-99ec-5ff9a97bb44b)
 
 # AWS 
-* Se entro a la mquina
+*  Se entro a la maquina y se empezo instalo java con el siguiente comado:
+    ```
+    sudo yum install java 
+    ```
+    ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/6c78d6ca-bf8e-48dc-a569-1cf5b0990eec)
 * Se instalo java con el siguiente comado:
-  ```
-  sudo yum install java 
-  ```
-  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/6c78d6ca-bf8e-48dc-a569-1cf5b0990eec)
+    ```
+    sudo yum install git 
+    ```
+    ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/837e6798-57fa-4712-b54b-282e068f86f1)
 * Se instalo java con el siguiente comado:
-  ```
-  sudo yum install git 
-  ```
-  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/837e6798-57fa-4712-b54b-282e068f86f1)
-* Se instalo java con el siguiente comado:
-  ```
-  sudo yum install maven 
-  ```
-
-   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/1f5701b2-32cf-49fe-a8db-846e5a85b1c1)
+    ```
+    sudo yum install maven 
+    ```
+    ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/1f5701b2-32cf-49fe-a8db-846e5a85b1c1)
 
 * Se clona el repositorio en una máquina local con el siguiente comando:
-  
     ```
     git clone https://github.com/Juc28/AREP_LAB07.git
     ```
@@ -114,13 +111,12 @@ Este laboratori está compuesto por 4 clases principales:
     ```
     cd AREP_LAB07
     ```
-
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/c9223a61-7bf0-4092-bd77-0edb3bd04589)
+  
 * Compilar :
   ```
   mvn clean install
   ```
-
 * Luego abrir en dos consolas el laboratorio para correr las clases
   ```
   java -cp "target/classes;target/dependency/*" org.example.HelloWorld
@@ -135,19 +131,14 @@ Este laboratori está compuesto por 4 clases principales:
 
  * Entrar al navegador con la url que nos dio aws que es:
    ```
-   
+   https://ec2-18-232-160-1.compute-1.amazonaws.com:5000/index.html
    ```
+   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/3d1b5d72-80ed-4bb7-8037-77808f2f4ea6)
 
-  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/3d1b5d72-80ed-4bb7-8037-77808f2f4ea6)
-
-  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/f61c78c5-b023-4e54-9b11-e50cad5603b7)
-
-
-
-
-
+   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/f61c78c5-b023-4e54-9b11-e50cad5603b7)
 
 # Prueba del Despliegue: 
+
 [VIDEO DESPLIEGUE AWS](https://youtu.be/CsM3Jy75i3k)
 
 # Autor 

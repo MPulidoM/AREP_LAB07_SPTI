@@ -17,7 +17,10 @@ mostrando la seguridad y funcionalidad de tu prototipo.
   <p align="center">
   <IMG src=https://1000marcas.net/wp-content/uploads/2020/11/Java-logo.png height=150 width=250> 
   <p/>
-- []
+- [AWS Academy](https://awsacademy.instructure.com/) : Para el uso de una máquina virtual.
+  <p align="center">
+  <IMG src=https://software.uniandes.edu.co/wp-content/uploads/2022/04/1500px_Academy_logo_HD.png height=150 width=250> 
+  <p/>
 # ARQUITECTURA 
 la arquitectura del proyecto sigue un patrón de diseño en el que cada clase tiene una responsabilidad específica.
 

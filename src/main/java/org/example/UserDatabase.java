@@ -11,8 +11,9 @@ import java.util.Map;
 public class UserDatabase {
     private static Map<String, String> db = new HashMap<>();
     public static void main(String[] args) throws NoSuchAlgorithmException {
-        db.put("Erika", PasswordCypher.cypherPassword("mariposita28"));
+
         db.put("Juliana", PasswordCypher.cypherPassword("harryStyles08"));
+        db.put("Erika", PasswordCypher.cypherPassword("prueba28"));
 
         secure("certificados/ecikeystore.p12", "123456", null, null);
         port(getPort());

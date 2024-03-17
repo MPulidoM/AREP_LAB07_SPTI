@@ -87,12 +87,11 @@
   <center><img src="https://blog.ayzweb.com/wp-content/uploads/homer.gif" width="100" height="100"/></center>
   <script>
     function login(user, pass) {
-   let url = "/login?user=" + user.value + "&pass=" + pass.value;
-
-   fetch(url, { method: "POST" })
-     .then((x) => x.text())
-     .then((y) => (document.getElementById("logmsg").innerHTML = y));
- }
+      let url = "/login?user=" + user.value + "&pass=" + pass.value;
+      fetch(url, { method: "POST" })
+        .then((x) => x.text())
+        .then((y) => (document.getElementById("logmsg").innerHTML = y));
+    }
   </script>
 </div>
 </body>

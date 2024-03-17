@@ -37,6 +37,25 @@
 
 ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/d1c251ae-101d-4e4a-99ec-5ff9a97bb44b)
 
+# AWS 
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/6c78d6ca-bf8e-48dc-a569-1cf5b0990eec)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/837e6798-57fa-4712-b54b-282e068f86f1)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/1f5701b2-32cf-49fe-a8db-846e5a85b1c1)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/c9223a61-7bf0-4092-bd77-0edb3bd04589)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/62c571e3-587b-4969-85d2-08b934076580)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/3d1b5d72-80ed-4bb7-8037-77808f2f4ea6)
+
+![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/f61c78c5-b023-4e54-9b11-e50cad5603b7)
+
+
+
+
+
 
 # Prueba del Despliegue: 
 [VIDEO DESPLIEGUE AWS]()

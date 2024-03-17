@@ -82,25 +82,25 @@ Este laboratori está compuesto por 4 clases principales:
  https://localhost:5000/index.html
  ```
 ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/e983667f-ed20-46c0-9c70-a86b9dff0279)
-* Al ingresar un usario que si existe:
+* Al ingresar un usuario que si existe:
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/d1ea3d62-e8cd-4db0-b600-3d34cc742818)
 * Al ingresar mal la clave de un usuario que existe:
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/069f2daf-c938-490f-a412-364c02de1a9f)
-* Al ingresar un que no usario que si existe:
+* Al ingresar un usuario que no existe:
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/d1c251ae-101d-4e4a-99ec-5ff9a97bb44b)
 
 # AWS 
-*  Se entro a la maquina y se empezo instalo java con el siguiente comado:
+*  Se entro a la máquina y se empezo instalado java con el siguiente comado:
     ```
     sudo yum install java 
     ```
     ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/6c78d6ca-bf8e-48dc-a569-1cf5b0990eec)
-* Se instalo java con el siguiente comado:
+* Se instalado java con el siguiente comado:
     ```
     sudo yum install git 
     ```
     ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/837e6798-57fa-4712-b54b-282e068f86f1)
-* Se instalo java con el siguiente comado:
+* Se instalado maven con el siguiente comado:
     ```
     sudo yum install maven 
     ```
@@ -116,18 +116,18 @@ Este laboratori está compuesto por 4 clases principales:
     ```
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/c9223a61-7bf0-4092-bd77-0edb3bd04589)
   
-* Compilar :
+* Compilar:
   ```
   mvn clean install
   ```
-* Luego abrir en dos consolas el laboratorio para correr las clases
+* Luego abrir en dos consolas el laboratorio para correr las clases:
   ```
-  java -cp "target/classes;target/dependency/*" org.example.HelloWorld
+  java -cp "target/classes:target/dependency/*" org.example.HelloWorld
 
   ```
 
   ```
-  java -cp "target/classes;target/dependency/*" org.example.UserDatabase
+  java -cp "target/classes:target/dependency/*" org.example.UserDatabase
   ```
 
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/62c571e3-587b-4969-85d2-08b934076580)

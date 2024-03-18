@@ -59,11 +59,10 @@ public class URLReader {
     }
     
     /**
-     * Método que lee el contenido de una URL utilizando un protocolo seguro (HTTPS).
-     * @param username Nombre de usuario para la autenticación.
-     * @param password Contraseña para la autenticación.
-     * @return Contenido de la URL en formato de texto.
-     * @throws IOException Si ocurre algún error al leer la URL.
+     * Método que lee el contenido de una URL y lo devuelve como una cadena de texto.
+     * @param sitetoread URL a leer.
+     * @return Contenido de la URL como una cadena de texto.
+     * @throws IOException Si ocurre un error al leer la URL.
      */
     public static String readURL(String sitetoread) {
         StringBuffer response = new StringBuffer();

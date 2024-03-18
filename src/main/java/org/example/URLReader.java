@@ -15,9 +15,16 @@ import java.util.logging.Logger;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
-
+/**
+ * Clase que permite leer el contenido de una URL.
+ */
 public class URLReader {
-
+    /**
+     * Método que lee el contenido de una URL utilizando un protocolo seguro (HTTPS).
+     * @param username Nombre de usuario para la autenticación.
+     * @param password Contraseña para la autenticación.
+     * @return Contenido de la URL en formato de texto.
+     */
     public static String secureReadUrl(String username, String password) {
         String secureResponse = "";
         try {
@@ -50,7 +57,14 @@ public class URLReader {
         }
         return secureResponse;
     }
-
+    
+    /**
+     * Método que lee el contenido de una URL utilizando un protocolo seguro (HTTPS).
+     * @param username Nombre de usuario para la autenticación.
+     * @param password Contraseña para la autenticación.
+     * @return Contenido de la URL en formato de texto.
+     * @throws IOException Si ocurre algún error al leer la URL.
+     */
     public static String readURL(String sitetoread) {
         StringBuffer response = new StringBuffer();
         try {

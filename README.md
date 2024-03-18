@@ -81,7 +81,11 @@ Este laboratori está compuesto por 4 clases principales:
  ```
  https://localhost:5000/index.html
  ```
-![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/e983667f-ed20-46c0-9c70-a86b9dff0279)
+  *Nota: Cuando accedas al sitio, es posible que aparezca una advertencia indicando que no es seguro. Puedes ignorar este aviso y continuar con la navegación, ya que no representa ningún riesgo para tu equipo. 
+  Esta situación se produce debido a las claves de seguridad generadas por el sitio.*
+  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/0a1639fc-84b5-4fa8-ba87-109536277886)
+  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/ab0336b2-5785-4d0a-b20c-fd280eac8036)
+  ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/e983667f-ed20-46c0-9c70-a86b9dff0279)
 * Al ingresar un usuario que si existe:
   ![imagen](https://github.com/Juc28/AREP_LAB07/assets/118181224/d1ea3d62-e8cd-4db0-b600-3d34cc742818)
 * Al ingresar mal la clave de un usuario que existe:

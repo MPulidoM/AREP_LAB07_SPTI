@@ -13,6 +13,8 @@ public class PasswordCypher {
      * @return La contraseña cifrada como una cadena de texto hexadecimal de 64 caracteres.
      * @throws NoSuchAlgorithmException Si el algoritmo de hash especificado no está disponible.
      */
+
+
     public static String cypherPassword(String password) throws NoSuchAlgorithmException {
         MessageDigest md = MessageDigest.getInstance("SHA3-256");
         byte[] hash = md.digest(password.getBytes());
@@ -22,6 +24,10 @@ public class PasswordCypher {
             hexString = "0" + hexString;
         }
         return hexString;
+    }
+
+    private PasswordCypher(){
+        throw new IllegalStateException("Utility class");
     }
     
     /**

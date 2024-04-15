@@ -29,7 +29,7 @@ public class URLReader {
         String secureResponse = "";
         try {
             File trustStoreFile = new File("certificados/myTrustStore.p12");
-            char[] trustStorePassword = "123456".toCharArray();
+            char[] trustStorePassword = "".toCharArray();
             KeyStore trustStore = KeyStore.getInstance(KeyStore.getDefaultType());
             trustStore.load(new FileInputStream(trustStoreFile), trustStorePassword);
             TrustManagerFactory tmf = TrustManagerFactory

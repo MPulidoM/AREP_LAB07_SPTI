@@ -54,6 +54,10 @@ public class URLReader {
         }
         return secureResponse;
     }
+
+    private URLReader(){
+        throw new IllegalStateException("Utility class");
+    }
     
     /**
      * Método que lee el contenido de una URL y lo devuelve como una cadena de texto.

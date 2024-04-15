@@ -1,6 +1,4 @@
 package org.example;
-import java.security.MessageDigest;
-
 import static spark.Spark.*;
 /**
  * Clase principal que define el servidor web y sus rutas.

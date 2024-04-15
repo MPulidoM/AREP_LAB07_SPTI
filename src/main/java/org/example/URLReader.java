@@ -7,15 +7,18 @@ import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
+import java.util.function.Supplier;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
+import java.util.logging.Logger;
 /**
  * Clase que permite leer el contenido de una URL.
  */
 public class URLReader {
+    private static final Logger logger = Logger.getLogger(String.valueOf(URLReader.class));
     /**
      * Método que lee el contenido de una URL utilizando un protocolo seguro (HTTPS).
      * @param username Nombre de usuario para la autenticación.
@@ -33,7 +36,7 @@ public class URLReader {
                     .getInstance(TrustManagerFactory.getDefaultAlgorithm());
             tmf.init(trustStore);
             for (TrustManager t : tmf.getTrustManagers()) {
-                System.out.println(t);
+                logger.info((Supplier<String>) t);
             }
             SSLContext sslContext = SSLContext.getInstance("TLS");
             sslContext.init(null, tmf.getTrustManagers(), null);
@@ -73,7 +76,7 @@ public class URLReader {
             BufferedReader reader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
             String inputLine = null;
             while ((inputLine = reader.readLine()) != null) {
-                System.out.println(inputLine);
+                logger.info(inputLine);
                 response.append(inputLine);
             }
         } catch (IOException x) {

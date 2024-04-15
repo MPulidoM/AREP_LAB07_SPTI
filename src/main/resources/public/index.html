@@ -90,7 +90,7 @@
       let url = "/login?user=" + user.value + "&pass=" + pass.value;
       fetch(url, { method: "POST" })
         .then((x) => x.text())
-        .then((y) => (document.getElementById("logmsg").innerHTML = y));
+        .then((y) => (document.getElementById("logmsg").innerText = y));
     }
   </script>
 </div>

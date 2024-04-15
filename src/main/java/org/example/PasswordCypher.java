@@ -3,10 +3,13 @@ package org.example;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.logging.Logger;
 /**
  * Clase que proporciona métodos para cifrar y validar contraseñas utilizando el algoritmo de hash SHA-3.
  */
 public class PasswordCypher {
+
+    private static final Logger logger = Logger.getLogger(String.valueOf(PasswordCypher.class));
     /**
      * Método que cifra una contraseña utilizando el algoritmo de hash SHA-3.
      *
@@ -40,7 +43,7 @@ public class PasswordCypher {
      */
     public static boolean validatePassword(String passToValidate, String correctPassword)
             throws NoSuchAlgorithmException {
-        System.out.println(PasswordCypher.cypherPassword(passToValidate));
+        logger.info("Cipher password: " + PasswordCypher.cypherPassword(passToValidate));
         return correctPassword.equals(PasswordCypher.cypherPassword(passToValidate));
     }
 

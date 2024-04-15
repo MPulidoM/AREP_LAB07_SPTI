@@ -66,7 +66,7 @@ public class URLReader {
      * @throws IOException Si ocurre un error al leer la URL.
      */
     public static String readURL(String sitetoread) {
-        StringBuffer response = new StringBuffer();
+        StringBuilder response = new StringBuilder();
         try {
             URL siteURL = new URL(sitetoread);
             URLConnection urlConnection = siteURL.openConnection();

@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
-import java.util.logging.Logger;
+
 /**
  * Clase que permite leer el contenido de una URL.
  */

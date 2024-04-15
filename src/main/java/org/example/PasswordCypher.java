@@ -43,8 +43,13 @@ public class PasswordCypher {
      */
     public static boolean validatePassword(String passToValidate, String correctPassword)
             throws NoSuchAlgorithmException {
-        logger.info("Cipher password: " + PasswordCypher.cypherPassword(passToValidate));
-        return correctPassword.equals(PasswordCypher.cypherPassword(passToValidate));
+        StringBuilder cipheredPassword = PasswordCypher.cypherPassword(passToValidate);
+
+        String logMessage = String.format("Cipher password: %s", cipheredPassword);
+
+        logger.info(logMessage);
+
+        return correctPassword.equals(cipheredPassword.toString());
     }
 
 }

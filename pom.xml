@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-http</artifactId>
-            <version>11.0.16</version>
+            <version>11.0.20</version>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
